@@ -1,6 +1,8 @@
 # Projeto Entra 21 - Material de Java e Angular
 Exemplos funcionais, tutoriais e execícios.
 
+Antes de entrar nos tópicos tenha configurado seu ambiente do Git.
+
 ## Java
 
 ### Objetivo
@@ -14,7 +16,7 @@ Faça o download e instale o Eclipse (https://www.eclipse.org/downloads/).
 Tendo baixado o installer do Eclipse, selecione a versão 'Eclipse IDE for Enterprise Java Developers' e instale.
 Tendo feito isso abra o Eclipse, ao fazer isso será solicitado que você abra um diretório como workspace.
 Selecione um diretório que na seja diretamente seu disco local como exemplo 'C:\src\eclipse-workspace', clique em 'launch'.
-Feito isso clique em 'File > New > Maven Project'. Aparecerá uma nova janela, clique em 'Browse' em seguida selecione outro diretório para seus fontes, por exemplo 'C:\src\Fontes\E21', então clique em 'Next', em 'Catalog' selecione 'Internal', na lista abaixo selecione maven-archetype-quickstart, clique em 'Next'.
+Feito isso clique em 'File > New > Maven Project'. Aparecerá uma nova janela, clique em 'Browse' em seguida selecione outro diretório para seus fontes, sendo dentro do repositório do git, por exemplo 'C:\src\Fontes\E21\e21-java-angular', então clique em 'Next', em 'Catalog' selecione 'Internal', na lista abaixo selecione maven-archetype-quickstart, clique em 'Next'.
 Em 'Group Id' escreva 'e21', em 'Artifact Id' escreva 'api', em 'Version' escreva '1.0', clique em 'Finish' e aguarde.
 Feche a janela de boas vindas, no explorador de pastas que abriu a esquerda, encontre o arquivo 'App.java', clique com o botão direito sobre ele, em seguida em 'Run As > Java Application', e seu projeto demo em Java está pronto no Eclipse.
 
@@ -40,14 +42,14 @@ Então para instalar o Angular utilize o seguinte comando:
 npm install -g @angular/cli
 ```
 
-Com o angular instalado, escolha um diretório para criar seu projeto, e crie seu projeto com o seguinte comando:
+Com o angular instalado, dentro do seu repositório do git, crie seu projeto com o seguinte comando:
 ```
-ng new e21-app
+ng new app
 ```
 
 Entre na pasta do projeto:
 ```
-cd e21-app
+cd app
 ```
 
 Agora deixe seu sistema no ar, dentro da pasta do projeto execute o comando:
