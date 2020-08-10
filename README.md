@@ -1,7 +1,7 @@
 # Projeto Entra 21 - Material de Java e Angular
 Exemplos funcionais, tutoriais e execícios.
 
-Antes de entrar nos tópicos tenha configurado seu ambiente do Git.
+Antes de entrar nos tópicos tenha configurado seu ambiente do Git, conforme o manual postado [aqui](https://github.com/capristano/e21-java-angular/blob/master/documents/Versionamento%20GIT.pdf).
 
 ## Java
 
