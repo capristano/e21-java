@@ -1,2 +1,2 @@
-# e21-java
-Exemplos funcionais, tutoriais e execícios
+# Projeto Entra 21 - Material de Java
+Exemplos funcionais, tutoriais e execícios.
